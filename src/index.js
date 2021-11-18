@@ -3,7 +3,7 @@
 
 import readlineSync from 'readline-sync';
 import welcome from './cli.js';
-import { getRandomIntInclusive } from './tools/random.js';
+import { getRandomIntInclusive } from './tools/random-numbers.js';
 
 export const name = () => welcome();
 

@@ -19,3 +19,10 @@ export const getRandomQuestion = (a, b) => {
   const question = questionArray.join(' ');
   return [rightAnswer, question];
 };
+
+export const gcdQuestion = (a, b) => {
+  if (!b) {
+    return a;
+  }
+  return gcdQuestion(b, a % b);
+};

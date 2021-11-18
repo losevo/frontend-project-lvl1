@@ -1,17 +1,18 @@
-import { getRandomQuestion } from '../tools/random-numbers.js';
 import {
   random, name, check, qa, win,
 } from '../index.js';
+import { gcdQuestion } from '../tools/random-numbers.js';
 
-const calc = () => {
+const gcd = () => {
   const firstName = name();
-  console.log('What is the result of the expression?');
+  console.log('Find the greatest common divisor of given numbers.');
   let i = 0;
   while (i < 3) {
     const a = random(0, 100);
     const b = random(0, 100);
-    const [rightAnswer, question] = getRandomQuestion(a, b);
-    const answer = qa(question);
+    const question = [a, b];
+    const rightAnswer = gcdQuestion(a, b);
+    const answer = qa(question.join(' '));
     if (check(rightAnswer, Number(answer), firstName) === true) {
       i += 1;
     } else {
@@ -23,4 +24,4 @@ const calc = () => {
   }
 };
 
-export default calc;
+export default gcd;

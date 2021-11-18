@@ -2,6 +2,6 @@
 /* eslint-disable import/no-named-as-default-member */
 /* eslint-disable import/no-named-as-default */
 
-import even from '../src/brain-even.js';
+import even from '../src/games/brain-even.js';
 
 even();

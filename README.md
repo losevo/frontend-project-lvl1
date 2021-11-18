@@ -3,3 +3,4 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
 [![eslint](https://github.com/losevo/frontend-project-lvl1/actions/workflows/eslint.yml/badge.svg)](https://github.com/losevo/frontend-project-lvl1/actions/workflows/eslint.yml)
 [![asciicast](https://asciinema.org/a/dY7WHZoVlTCcf6b42u1mxWcmp.svg)](https://asciinema.org/a/dY7WHZoVlTCcf6b42u1mxWcmp)
+[![asciicast](https://asciinema.org/a/69hRqa5Is8rM3PbdyYzbgzSNQ.svg)](https://asciinema.org/a/69hRqa5Is8rM3PbdyYzbgzSNQ)
